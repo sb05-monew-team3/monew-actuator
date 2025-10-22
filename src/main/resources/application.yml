@@ -1,0 +1,12 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: monew_actuator
+  boot:
+    admin:
+      monitor:
+        status-lifetime: 10s
+      ui:
+        title: Monew Admin Dashboard
